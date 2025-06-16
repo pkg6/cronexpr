@@ -1,7 +1,7 @@
 /*!
  * Copyright 2013 Raymond Hill
  *
- * Project: github.com/gorhill/cronexpr
+ * Project: github.com/pkg6/cronexpr
  * File: main.go
  * Version: 1.0
  * License: GPL v3 see <https://www.gnu.org/licenses/gpl.html>
@@ -15,10 +15,9 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/pkg6/cronexpr"
 	"os"
 	"time"
-
-	"github.com/gorhill/cronexpr"
 )
 
 /******************************************************************************/

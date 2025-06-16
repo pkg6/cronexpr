@@ -6,7 +6,7 @@ In another project, I decided to use cron expression syntax to encode scheduling
 
 The time-matching algorithm in this implementation is efficient, it avoids as much as possible to guess the next matching time stamp, a common technique seen in a number of implementations out there.
 
-There is also a companion command-line utility to evaluate cron time expressions: <https://github.com/gorhill/cronexpr/tree/master/cronexpr> (which of course uses this library).
+There is also a companion command-line utility to evaluate cron time expressions: <https://github.com/pkg6/cronexpr/tree/master/cronexpr> (which of course uses this library).
 
 Implementation
 --------------
@@ -72,13 +72,13 @@ Other details
 
 Install
 -------
-    go get github.com/gorhill/cronexpr
+    go get github.com/pkg6/cronexpr
 
 Usage
 -----
 Import the library:
 
-    import "github.com/gorhill/cronexpr"
+    import "github.com/pkg6/cronexpr"
     import "time"
 
 Simplest way:
@@ -122,7 +122,7 @@ returned.
 
 API
 ---
-<http://godoc.org/github.com/gorhill/cronexpr>
+<http://godoc.org/github.com/pkg6/cronexpr>
 
 License
 -------

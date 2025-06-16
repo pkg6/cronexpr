@@ -1,7 +1,7 @@
 /*!
  * Copyright 2013 Raymond Hill
  *
- * Project: github.com/gorhill/cronexpr
+ * Project: github.com/pkg6/cronexpr
  * File: cronexpr_test.go
  * Version: 1.0
  * License: pick the one which suits you best:
@@ -282,7 +282,7 @@ func TestNextN_every5min(t *testing.T) {
 	}
 }
 
-// Issue: https://github.com/gorhill/cronexpr/issues/16
+// Issue: https://github.com/pkg6/cronexpr/issues/16
 func TestInterval_Interval60Issue(t *testing.T) {
 	_, err := Parse("*/60 * * * * *")
 	if err == nil {
